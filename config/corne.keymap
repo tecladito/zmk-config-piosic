@@ -46,7 +46,7 @@
 // | //// |  '  |  ,  |  .  |  "  |  `  |   |  _  |  +  |  {  |  }  | "|" | //// |
 //                    |     |     | SPC |   | RET |     | ALT |
                         bindings = <
-   &trans  &kp TILDE  &kp AT    &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET &kp AMPS  &kp LPAR  &kp RPAR &kp FLSH &trans
+   &trans  &kp TILDE  &kp AT    &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET &kp AMPS  &kp LPAR  &kp RPAR &kp FSLH &trans
    &trans  &kp EXCL   &kp LT    &kp GT    &kp QMARK  &kp ASTRK    &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &trans
    &trans  &kp SQT    &kp COMMA &kp DOT   &kp DQT    &kp GRAVE    &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &trans
                                 &trans    &mo 3      &kp SPACE    &kp RET   &trans    &kp RALT
