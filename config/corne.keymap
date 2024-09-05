@@ -23,7 +23,7 @@
    &trans  &kp Q      &kp W  &kp F     &kp P  &kp B         &kp J    &kp L  &kp U  &kp Y    &kp SEMI  &trans
    &trans  &kp A      &kp R  &kp S     &kp T  &kp G         &kp M    &kp N  &kp E  &kp L    &kp O     &trans
    &trans  &kp LSHFT  &kp X  &kp C     &kp D  &kp V         &kp K    &kp H  &kp Z  &kp DOT  &kp RSHFT  &trans
-                             &kt LCTRL &mo 1  &kp SPACE     &kp RET  &mo 2  &kp RALT
+                             &kp LCTRL &mo 1  &kp SPACE     &kp RET  &mo 2  &kp RALT
                         >;
                 };
                 lower_layer {
