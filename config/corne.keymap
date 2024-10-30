@@ -17,7 +17,7 @@
 };
 &msc {
     acceleration-exponent = <1>;  // 0
-    time-to-max-speed-ms = <40>;  // 300
+    time-to-max-speed-ms = <300>;  // 300
     delay-ms = <0>;
     trigger-period-ms = <8>;      // 16
 };
@@ -67,7 +67,7 @@
                         bindings = <
    &trans  &kp N1         &kp N2         &kp N3        &kp N4           &kp N5         &kp N6    &kp N7     &kp N8    &kp N9    &kp N0     &trans
    &trans  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp HOME       &kp END   &kp LEFT   &kp UP    &kp DOWN  &kp RIGHT  &trans
-   &trans  &msc MOVE_LEFT &msc MOVE_DOWN &msc MOVE_UP  &msc MOVE_RIGHT  &kp LGUI       &kp LCTRL &mkp MB1   &mkp MB3  &mkp MB2  &kp ESC    &trans
+   &trans  &msc MOVE_LEFT &msc MOVE_UP &msc MOVE_DOWN  &msc MOVE_RIGHT  &kp LGUI       &kp LCTRL &mkp MB1   &mkp MB3  &mkp MB2  &kp ESC    &trans
                                          &kp LG(LCTRL) &trans           &kp SPACE      &kp BSPC  &mo CONFIG &kp DEL
                         >;
                 };
